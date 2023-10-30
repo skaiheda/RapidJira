@@ -9,8 +9,8 @@ import urllib3
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 import time
 
-nexpose = 'https://nexpose.kapitalho.az:3780/api/3'
-jira = 'https://jira-support.kapitalbank.az/rest/api/2/issue'
+nexpose = 'https://some_url:[portNumber]/api/3'
+jira = 'https://some_url/rest/api/2/issue'
 
 username = 'safarovaas'
 print("Enter your ldap password: ")
